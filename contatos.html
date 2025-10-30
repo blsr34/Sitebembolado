@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="HTML" />
+        <meta name="keywords" content="navegadores, sistemas operacionais, script, css, html, javascript" />
+        <link rel="stylesheet" type="text/css" href="estilos.css" />
+        <title>contatos - 2TIA</title>
+
+        <style>
+            th {
+                color:darkgreen;
+                font-size: 32px;
+            }
+
+            td {
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+                font-size: 18px;
+            }
+        </style>
+
+    </head>
+    <body>
+<!-- Definição do Título da Página -->
+        <header>
+            <nav>
+            <div align="center">    
+            <h1 id="topo">DESENVOLVIMENTO WEB</h1>
+            | <a href="index.html">Home</a> 
+            | <span class="pagina">Contatos</span>
+            | <a href="empresa.html">Quem Somos</a>             
+            |
+            </div>
+            </nav>
+            <hr>
+        </header>    
+
+<!-- Definição do Conteúdo Principal da Página -->
+        <main>
+            <form name="formcadastro" action="mailto:projweb@fernaodias.net.br" method="post">    
+            <table border="0" width="80%" cellspacing="10" cellpadding="5" style="background-color: rgb(201, 232, 191);" align="center">
+                <tr>
+                    <th colspan="2" style="background-color: rgb(146, 207, 128);">CADASTRO</th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                      <label for="f_nome">Nome:</label><br>
+                      <input type="text" id="f_nome" name="f_nome" size="100" maxlength="70">
+                    </td>
+                </tr>
+                <tr>
+                    <td>  
+                      <label for="f_email">E-mail:</label><br>
+                      <input type="text" id="f_email" name="f_email" size="50" maxlength="40">  
+                    </td>
+                    <td>
+                      <label for="f_fone">Fone:</label><br>
+                      <input type="text" id="f_fone" name="f_fone" size="15" maxlength="12">  
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">                        
+                      <label for="f_endereco">Endereço:</label><br>
+                      <input type="text" id="f_endereco" name="f_endereco" size="100" maxlength="70">    
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                      <label for="f_cidade">Cidade:</label><br>
+                      <input type="text" id="f_cidade" name="f_cidade" size="50" maxlength="40">  
+                    </td>
+                    <td>
+                      <label for="f_estado">Estado:</label><br>
+                      <input type="text" id="f_estado" name="f_estado" size="15" maxlength="12">  
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                      <input type="radio" id="f_disciplina" name="f_disciplina" value="DW">  
+                      <label for="f_disciplina">Desenvolvimento Web</label><br>
+
+                      <input type="radio" id="f_disciplina" name="f_disciplina" value="DS">  
+                      <label for="f_disciplina">Desenvolvimento de Sistemas</label><br>
+                    </td>
+                    <td>
+                      <label for="f_estado">Estado:</label><br>
+                      <input type="text" id="f_estado" name="f_estado" size="15" maxlength="12">  
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="ENVIAR" name="btn_ENVIAR">
+                        
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        
+                        <input type="reset" value="CANCELAR" name="btn_CANCELAR">
+                    </td>
+                </tr>
+            </table>
+            </form>
+        </main>
+
+<!-- Definição do Rodapé da Página -->
+        <footer>
+          <hr>
+          <div align="center">&copy; 2025 - Desenvolvido por LRO</div>
+        </footer>
+    </body>
+
+</html>

@@ -1,0 +1,147 @@
+/* Estrutura CSS
+
+   seletor {propriedade:valor}
+
+   propriedade:valor => declaração
+
+
+
+body {
+      background-color: rgb(215, 248, 237);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 14px;
+}
+
+h1 {
+    color: rgb(80, 121, 39);
+}
+
+
+/* link não-visitado (unvisited link) 
+
+a:link{
+          color:rgb(6, 77, 54);
+          text-decoration: none;
+}
+
+/* link visitado (visited link) 
+
+a:visited{
+    color:rgb(211, 240, 231);
+}
+
+/* link sobreposição-mouse (over link)
+
+a:hover{
+    color:rgb(211, 240, 231); 
+    background-color: rgb(6, 77, 54); 
+    text-decoration: none;
+}
+
+/* link ativado (active link) 
+
+a:active{
+    color:rgb(0, 0, 0);
+    background-color: rgb(54, 185, 144);
+    text-decoration: none;
+}
+
+/* Definição de Classes CSS 
+
+.pagina {
+         font-weight: bolder; 
+         font-size: 18px;
+}
+
+*/
+
+/* novo codigo */
+
+/*estilos.css*/
+body {
+    background: color #d1e2f5;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+}
+/*estilos para o cabeçalho*/
+header,
+footer {
+    background-color: #d1e2f5;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #003366;
+}
+
+/*navegaçao no cabeçalho*/
+nav {
+margin: 10px 0;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration:none;
+    color: #004080;
+    font-weight: bold;
+}
+nav a:hover{
+    text-decoration:underline;
+}
+/*estilos para o conteudo principal*/
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fdfdfd;
+    border-radius: 8px;
+}
+/* estilos para os titulos das refeiçoes*/
+h2 {
+    color: 005599;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 5px;
+}
+/* estilos para as listas */
+ul
+ol {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+ul li,
+ol li{
+margin-bottom: 6px;
+}
+
+img {
+    vertical-align: middle;
+    margin-inline-start: 5px;
+}
+
+/* estilos para o lissk de rolsr de rolar ao topo */
+.voltar{
+    margin-top: 20px;
+    text-align: right;
+}
+.voltar a:hover {
+    color: #066
+}
+
+/* estilos para o rodape*/
+footer{
+    font-size: 0.9em;
+    color: #666
+}
+
+
+
+
+
+
+
